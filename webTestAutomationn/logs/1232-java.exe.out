@@ -1,0 +1,174 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+{"logLevel":"debug","message":"gauge-java took 942milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 942"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 55040"}
+{"logLevel":"info","message":"Listening on port:55040"}
+2022-08-09 23:50:42 INFO  Reflections:169 info - Reflections took 3331 ms to scan 106 urls, producing 11784 keys and 66104 values 
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'step.StepImplementation.hover' and 'step.StepImplementation.hover'"}
+{"logLevel":"debug","message":"Found {} elementine odaklan in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step.StepImplementation.saveObjectValueToUserVariable' and 'step.StepImplementation.saveObjectValueToUserVariable'"}
+{"logLevel":"debug","message":"Found {} objesinin değerini {} değişkenine kaydet in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step.StepImplementation.waitUntilVisible' and 'step.StepImplementation.waitUntilVisible'"}
+{"logLevel":"debug","message":"Found Sayfa üzerinde {} objesi görüntülenene kadar bekle in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step.StepImplementation.generateRandomMail' and 'step.StepImplementation.generateRandomMail'"}
+{"logLevel":"debug","message":"Found {} alanına rastgele mail adresi yaz in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step.StepImplementation.waitBySeconds' and 'step.StepImplementation.waitBySeconds'"}
+{"logLevel":"debug","message":"Found {} saniye bekle in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step.StepImplementation.scrollElement' and 'step.StepImplementation.scrollElement'"}
+{"logLevel":"debug","message":"Found {} elementi görüntülünene kadar kaydır in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step.StepImplementation.ssendKeys' and 'step.StepImplementation.ssendKeys'"}
+{"logLevel":"debug","message":"Found {} elementine {} textini yaz in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step.StepImplementation.clickElement' and 'step.StepImplementation.clickElement'"}
+{"logLevel":"debug","message":"Found {} elementine tıkla in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step.StepImplementation.selectElementByText' and 'step.StepImplementation.selectElementByText'"}
+{"logLevel":"debug","message":"Found {} select objesinde {} değerini seç in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step.StepImplementation.implementation4' and 'step.StepImplementation.implementation4'"}
+{"logLevel":"debug","message":"Found {} elementinin değeri {} değerini içeriyor mu kontrol et in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step.StepImplementation.implementation5' and 'step.StepImplementation.implementation5'"}
+{"logLevel":"debug","message":"Found {} objesinin değeri {} değişken değerini içeriyor mu kontrol et in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\tSayfa üzerinde {} objesi görüntülenene kadar bekle : public void waitUntilVisible(String key)"}
+{"logLevel":"debug","message":"\t{} elementine odaklan : public void hover(String key)"}
+{"logLevel":"debug","message":"\t{} saniye bekle : public void waitBySeconds(long seconds)"}
+{"logLevel":"debug","message":"\t{} elementine tıkla : public void clickElement(String key)"}
+{"logLevel":"debug","message":"\t{} elementine {} textini yaz : public void ssendKeys(String key, String text)"}
+{"logLevel":"debug","message":"\t{} select objesinde {} değerini seç : public void selectElementByText(String key, String text)"}
+{"logLevel":"debug","message":"\t{} objesinin değerini {} değişkenine kaydet : public void saveObjectValueToUserVariable(String key, String variableName)"}
+{"logLevel":"debug","message":"\t{} alanına rastgele mail adresi yaz : public void generateRandomMail(String key)"}
+{"logLevel":"debug","message":"\t{} elementinin değeri {} değerini içeriyor mu kontrol et : public void implementation4(String key, String expectedValue)"}
+{"logLevel":"debug","message":"\t{} objesinin değeri {} değişken değerini içeriyor mu kontrol et : public void implementation5(String key, String savedUserVariable)"}
+{"logLevel":"debug","message":"\t{} elementi görüntülünene kadar kaydır : public void scrollElement(String key)"}
+2022-08-09 23:50:44 INFO  Reflections:169 info - Reflections took 2073 ms to scan 106 urls, producing 11685 keys and 54884 values 
+Ağu 09, 2022 11:50:45 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Ağu 09, 2022 11:50:45 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Starting ChromeDriver 103.0.5060.134 (8ec6fce403b3feb0869b0732eda8bd95011d333c-refs/branch-heads/5060@{#1262}) on port 25008
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Ağu 09, 2022 11:50:46 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+{"logLevel":"debug","message":"Executing 'Sayfa üzerinde {} objesi görüntülenene kadar bekle' using 'class step.StepImplementation.waitUntilVisible"}
+2022-08-09 23:50:52 INFO  BaseSteps:93 getBy - Sign_In elementi By.xpath: //a[@class='login' ] by değerine sahip
+2022-08-09 23:50:52 INFO  BaseSteps:41 waitUntilVisible - 'Sign_In' objesi sayfa üzerinde görüntülenene kadar beklendi.
+{"logLevel":"debug","message":"Executing '{} elementine tıkla' using 'class step.StepImplementation.clickElement"}
+2022-08-09 23:50:52 INFO  BaseSteps:93 getBy - Sign_In elementi By.xpath: //a[@class='login' ] by değerine sahip
+2022-08-09 23:50:54 INFO  BaseSteps:84 clickElement - Elemente tıklandı.
+{"logLevel":"debug","message":"Executing 'Sayfa üzerinde {} objesi görüntülenene kadar bekle' using 'class step.StepImplementation.waitUntilVisible"}
+2022-08-09 23:50:54 INFO  BaseSteps:93 getBy - email_Address elementi By.id: email_create by değerine sahip
+2022-08-09 23:50:54 INFO  BaseSteps:41 waitUntilVisible - 'email_Address' objesi sayfa üzerinde görüntülenene kadar beklendi.
+{"logLevel":"debug","message":"Executing '{} alanına rastgele mail adresi yaz' using 'class step.StepImplementation.generateRandomMail"}
+2022-08-09 23:50:54 INFO  BaseSteps:53 sendKeys - Elemente mdkaeie@gmail.com texti yazıldı.
+{"logLevel":"debug","message":"Executing '{} elementine tıkla' using 'class step.StepImplementation.clickElement"}
+2022-08-09 23:50:54 INFO  BaseSteps:93 getBy - create_An_Account elementi By.id: SubmitCreate by değerine sahip
+2022-08-09 23:50:54 INFO  BaseSteps:84 clickElement - Elemente tıklandı.
+{"logLevel":"debug","message":"Executing 'Sayfa üzerinde {} objesi görüntülenene kadar bekle' using 'class step.StepImplementation.waitUntilVisible"}
+2022-08-09 23:50:54 INFO  BaseSteps:93 getBy - first_Name elementi By.id: customer_firstname by değerine sahip
+2022-08-09 23:50:56 INFO  BaseSteps:41 waitUntilVisible - 'first_Name' objesi sayfa üzerinde görüntülenene kadar beklendi.
+{"logLevel":"debug","message":"Executing '{} elementine {} textini yaz' using 'class step.StepImplementation.ssendKeys"}
+2022-08-09 23:50:56 INFO  BaseSteps:54 ssendKeys - first_Name elementine test texti yazildi.
+{"logLevel":"debug","message":"Executing '{} elementine {} textini yaz' using 'class step.StepImplementation.ssendKeys"}
+2022-08-09 23:50:56 INFO  BaseSteps:54 ssendKeys - last_Name elementine test texti yazildi.
+{"logLevel":"debug","message":"Executing '{} elementine {} textini yaz' using 'class step.StepImplementation.ssendKeys"}
+2022-08-09 23:50:56 INFO  BaseSteps:54 ssendKeys - password elementine 123456 texti yazildi.
+{"logLevel":"debug","message":"Executing '{} elementine {} textini yaz' using 'class step.StepImplementation.ssendKeys"}
+2022-08-09 23:50:56 INFO  BaseSteps:54 ssendKeys - adres elementine Madison Bulvarı texti yazildi.
+{"logLevel":"debug","message":"Executing '{} elementine {} textini yaz' using 'class step.StepImplementation.ssendKeys"}
+2022-08-09 23:50:57 INFO  BaseSteps:54 ssendKeys - sehir elementine New York texti yazildi.
+{"logLevel":"debug","message":"Executing '{} elementine {} textini yaz' using 'class step.StepImplementation.ssendKeys"}
+2022-08-09 23:50:57 INFO  BaseSteps:54 ssendKeys - posta_Kodu elementine 10010 texti yazildi.
+{"logLevel":"debug","message":"Executing '{} select objesinde {} değerini seç' using 'class step.StepImplementation.selectElementByText"}
+2022-08-09 23:50:57 INFO  BaseSteps:93 getBy - devlet elementi By.id: id_state by değerine sahip
+{"logLevel":"debug","message":"Executing '{} elementine {} textini yaz' using 'class step.StepImplementation.ssendKeys"}
+2022-08-09 23:50:57 INFO  BaseSteps:54 ssendKeys - cep_Telefonu elementine 5454445544 texti yazildi.
+{"logLevel":"debug","message":"Executing '{} elementine tıkla' using 'class step.StepImplementation.clickElement"}
+2022-08-09 23:50:57 INFO  BaseSteps:93 getBy - kayıt_Ol elementi By.id: submitAccount by değerine sahip
+2022-08-09 23:50:59 INFO  BaseSteps:84 clickElement - Elemente tıklandı.
+{"logLevel":"debug","message":"Executing '{} elementinin değeri {} değerini içeriyor mu kontrol et' using 'class step.StepImplementation.implementation4"}
+2022-08-09 23:50:59 INFO  BaseSteps:93 getBy - hesabım elementi By.xpath: //a[@class='account']/span[text()='test test'] by değerine sahip
+2022-08-09 23:50:59 INFO  BaseSteps:155 mustBeContains - 'test test', 'test test' değerini içeriyor.
+{"logLevel":"debug","message":"Executing 'Sayfa üzerinde {} objesi görüntülenene kadar bekle' using 'class step.StepImplementation.waitUntilVisible"}
+2022-08-09 23:50:59 INFO  BaseSteps:93 getBy - my_Account elementi By.xpath: //span[text()='My account'] by değerine sahip
+2022-08-09 23:50:59 INFO  BaseSteps:41 waitUntilVisible - 'my_Account' objesi sayfa üzerinde görüntülenene kadar beklendi.
+{"logLevel":"debug","message":"Executing '{} elementinin değeri {} değerini içeriyor mu kontrol et' using 'class step.StepImplementation.implementation4"}
+2022-08-09 23:50:59 INFO  BaseSteps:93 getBy - my_Account elementi By.xpath: //span[text()='My account'] by değerine sahip
+2022-08-09 23:50:59 INFO  BaseSteps:155 mustBeContains - 'My account', 'My account' değerini içeriyor.
+{"logLevel":"debug","message":"Executing '{} elementine odaklan' using 'class step.StepImplementation.hover"}
+2022-08-09 23:50:59 INFO  BaseSteps:75 hover - 'dresses' objesine odaklanıldı.
+{"logLevel":"debug","message":"Executing '{} elementine tıkla' using 'class step.StepImplementation.clickElement"}
+2022-08-09 23:50:59 INFO  BaseSteps:93 getBy - summer_Dresses elementi By.xpath: (//li/a[@title="Summer Dresses"])[2] by değerine sahip
+2022-08-09 23:51:02 INFO  BaseSteps:84 clickElement - Elemente tıklandı.
+{"logLevel":"debug","message":"Executing '{} elementi görüntülünene kadar kaydır' using 'class step.StepImplementation.scrollElement"}
+{"logLevel":"debug","message":"Executing '{} objesinin değerini {} değişkenine kaydet' using 'class step.StepImplementation.saveObjectValueToUserVariable"}
+2022-08-09 23:51:02 INFO  BaseSteps:93 getBy - urun_Adi elementi By.xpath: (//a[@class='product-name'])[3] by değerine sahip
+2022-08-09 23:51:02 INFO  BaseSteps:102 saveObjectValueToUserVariable - 'Printed Summer Dress' değeri 'urun_Adi' değişkenine kaydedildi.
+{"logLevel":"debug","message":"Executing '{} elementine odaklan' using 'class step.StepImplementation.hover"}
+2022-08-09 23:51:02 INFO  BaseSteps:75 hover - 'elbise' objesine odaklanıldı.
+{"logLevel":"debug","message":"Executing '{} elementine tıkla' using 'class step.StepImplementation.clickElement"}
+2022-08-09 23:51:02 INFO  BaseSteps:93 getBy - sepete_Ekle elementi By.xpath: (//a[@title='Add to cart'])[2] by değerine sahip
+2022-08-09 23:51:02 INFO  BaseSteps:84 clickElement - Elemente tıklandı.
+{"logLevel":"debug","message":"Executing 'Sayfa üzerinde {} objesi görüntülenene kadar bekle' using 'class step.StepImplementation.waitUntilVisible"}
+2022-08-09 23:51:02 INFO  BaseSteps:93 getBy - carpi_Iconu elementi By.xpath: //span[@title='Close window'] by değerine sahip
+2022-08-09 23:51:05 INFO  BaseSteps:41 waitUntilVisible - 'carpi_Iconu' objesi sayfa üzerinde görüntülenene kadar beklendi.
+{"logLevel":"debug","message":"Executing '{} elementine tıkla' using 'class step.StepImplementation.clickElement"}
+2022-08-09 23:51:05 INFO  BaseSteps:93 getBy - carpi_Iconu elementi By.xpath: //span[@title='Close window'] by değerine sahip
+2022-08-09 23:51:05 INFO  BaseSteps:84 clickElement - Elemente tıklandı.
+{"logLevel":"debug","message":"Executing '{} elementine {} textini yaz' using 'class step.StepImplementation.ssendKeys"}
+2022-08-09 23:51:05 INFO  BaseSteps:54 ssendKeys - search elementine Summer texti yazildi.
+{"logLevel":"debug","message":"Executing '{} elementine tıkla' using 'class step.StepImplementation.clickElement"}
+2022-08-09 23:51:05 INFO  BaseSteps:93 getBy - ara_Butonu elementi By.xpath: //button[@name='submit_search'] by değerine sahip
+2022-08-09 23:51:07 INFO  BaseSteps:84 clickElement - Elemente tıklandı.
+{"logLevel":"debug","message":"Executing '{} elementi görüntülünene kadar kaydır' using 'class step.StepImplementation.scrollElement"}
+{"logLevel":"debug","message":"Executing '{} objesinin değerini {} değişkenine kaydet' using 'class step.StepImplementation.saveObjectValueToUserVariable"}
+2022-08-09 23:51:07 INFO  BaseSteps:93 getBy - urun_Adi elementi By.xpath: (//a[@class='product-name'])[3] by değerine sahip
+2022-08-09 23:51:07 INFO  BaseSteps:102 saveObjectValueToUserVariable - 'Blouse' değeri 'urun_Adi2' değişkenine kaydedildi.
+{"logLevel":"debug","message":"Executing '{} elementine odaklan' using 'class step.StepImplementation.hover"}
+2022-08-09 23:51:07 INFO  BaseSteps:75 hover - 'elbise' objesine odaklanıldı.
+{"logLevel":"debug","message":"Executing '{} elementine tıkla' using 'class step.StepImplementation.clickElement"}
+2022-08-09 23:51:07 INFO  BaseSteps:93 getBy - sepete_Ekle elementi By.xpath: (//a[@title='Add to cart'])[2] by değerine sahip
+2022-08-09 23:51:08 INFO  BaseSteps:84 clickElement - Elemente tıklandı.
+{"logLevel":"debug","message":"Executing 'Sayfa üzerinde {} objesi görüntülenene kadar bekle' using 'class step.StepImplementation.waitUntilVisible"}
+2022-08-09 23:51:08 INFO  BaseSteps:93 getBy - carpi_Iconu elementi By.xpath: //span[@title='Close window'] by değerine sahip
+2022-08-09 23:51:09 INFO  BaseSteps:41 waitUntilVisible - 'carpi_Iconu' objesi sayfa üzerinde görüntülenene kadar beklendi.
+{"logLevel":"debug","message":"Executing '{} elementine tıkla' using 'class step.StepImplementation.clickElement"}
+2022-08-09 23:51:09 INFO  BaseSteps:93 getBy - carpi_Iconu elementi By.xpath: //span[@title='Close window'] by değerine sahip
+2022-08-09 23:51:09 INFO  BaseSteps:84 clickElement - Elemente tıklandı.
+{"logLevel":"debug","message":"Executing '{} elementine tıkla' using 'class step.StepImplementation.clickElement"}
+2022-08-09 23:51:09 INFO  BaseSteps:93 getBy - sepet elementi By.xpath: //a[@title='View my shopping cart'] by değerine sahip
+2022-08-09 23:51:21 INFO  BaseSteps:84 clickElement - Elemente tıklandı.
+{"logLevel":"debug","message":"Executing '{} objesinin değeri {} değişken değerini içeriyor mu kontrol et' using 'class step.StepImplementation.implementation5"}
+2022-08-09 23:51:21 INFO  BaseSteps:93 getBy - sepetteki_Urun elementi By.xpath: //td/p/a[text()='Printed Summer Dress'] by değerine sahip
+2022-08-09 23:51:21 INFO  BaseSteps:155 mustBeContains - 'PrintedSummerDress', 'PrintedSummerDress' değerini içeriyor.
+{"logLevel":"debug","message":"Executing '{} objesinin değerini {} değişkenine kaydet' using 'class step.StepImplementation.saveObjectValueToUserVariable"}
+2022-08-09 23:51:21 INFO  BaseSteps:93 getBy - sepetteki_Urun elementi By.xpath: //td/p/a[text()='Printed Summer Dress'] by değerine sahip
+2022-08-09 23:51:21 INFO  BaseSteps:102 saveObjectValueToUserVariable - 'Printed Summer Dress' değeri 'urun_Adi2' değişkenine kaydedildi.
+{"logLevel":"debug","message":"Executing '{} elementinin değeri {} değerini içeriyor mu kontrol et' using 'class step.StepImplementation.implementation4"}
+2022-08-09 23:51:21 INFO  BaseSteps:93 getBy - urun_Adedi elementi By.id: summary_products_quantity by değerine sahip
+2022-08-09 23:51:21 INFO  BaseSteps:155 mustBeContains - '2 Products', '2 Products' değerini içeriyor.
+{"logLevel":"debug","message":"Executing '{} elementi görüntülünene kadar kaydır' using 'class step.StepImplementation.scrollElement"}
+{"logLevel":"debug","message":"Executing '{} elementine tıkla' using 'class step.StepImplementation.clickElement"}
+2022-08-09 23:51:21 INFO  BaseSteps:93 getBy - ADRES ICIN DEVAM ET elementi By.xpath: //a[@title='Proceed to checkout']/span[text()='Proceed to checkout'] by değerine sahip
+2022-08-09 23:51:23 INFO  BaseSteps:84 clickElement - Elemente tıklandı.
+{"logLevel":"debug","message":"Executing '{} elementinin değeri {} değerini içeriyor mu kontrol et' using 'class step.StepImplementation.implementation4"}
+2022-08-09 23:51:23 INFO  BaseSteps:93 getBy - adres_Kontrol elementi By.xpath: (//li[contains(@class,'address_city address_state')]) by değerine sahip
+2022-08-09 23:51:23 INFO  BaseSteps:155 mustBeContains - 'New York, New York 10010', 'New York, New York 10010' değerini içeriyor.
+{"logLevel":"debug","message":"Executing '{} elementi görüntülünene kadar kaydır' using 'class step.StepImplementation.scrollElement"}
+{"logLevel":"debug","message":"Executing '{} elementine tıkla' using 'class step.StepImplementation.clickElement"}
+2022-08-09 23:51:23 INFO  BaseSteps:93 getBy - ODEME ICIN DEVAM ET elementi By.xpath: (//button[@type='submit'])[2] by değerine sahip
+2022-08-09 23:51:25 INFO  BaseSteps:84 clickElement - Elemente tıklandı.
+{"logLevel":"debug","message":"Executing '{} elementine tıkla' using 'class step.StepImplementation.clickElement"}
+2022-08-09 23:51:25 INFO  BaseSteps:93 getBy - HIZMET SARTLARINI KABUL EDIYORUM elementi By.id: cgv by değerine sahip
+2022-08-09 23:51:25 INFO  BaseSteps:84 clickElement - Elemente tıklandı.
+{"logLevel":"debug","message":"Executing '{} elementi görüntülünene kadar kaydır' using 'class step.StepImplementation.scrollElement"}
+{"logLevel":"debug","message":"Executing '{} elementine tıkla' using 'class step.StepImplementation.clickElement"}
+2022-08-09 23:51:25 INFO  BaseSteps:93 getBy - ODEME ICIN DEVAM ET elementi By.xpath: (//button[@type='submit'])[2] by değerine sahip
+2022-08-09 23:51:55 INFO  BaseSteps:84 clickElement - Elemente tıklandı.
+{"logLevel":"debug","message":"Killing Java runner..."}
+{"logLevel":"debug","message":"Stopping execution pool..."}
+{"logLevel":"debug","message":"Shutting down grpc server..."}
+{"logLevel":"debug","message":"Runner killed gracefully."}

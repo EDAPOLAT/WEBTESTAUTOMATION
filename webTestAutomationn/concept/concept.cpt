@@ -1,0 +1,90 @@
+Created by  on 9.08.2022
+
+This is a concept file with following syntax for each concept.
+
+# Yeni Hesap Oluştur
+* Sayfa üzerinde "KAYIT OL" objesi görüntülenene kadar bekle
+* "KAYIT OL" elementine tıkla
+* Sayfa üzerinde "EMAIL ADRES" objesi görüntülenene kadar bekle
+* "EMAIL ADRES" alanına rastgele mail adresi yaz
+* "HESAP OLUSTUR" elementine tıkla
+* Sayfa üzerinde "FIRST NAME" objesi görüntülenene kadar bekle
+* "FIRST NAME" elementine "test" textini yaz
+* "LAST NAME" elementine "test" textini yaz
+* "PASSWORD" elementine "123456" textini yaz
+* "ADRES" elementine "Madison Bulvarı" textini yaz
+* "SEHIR" elementine "New York" textini yaz
+* "POSTA KODU" elementine "10010" textini yaz
+* "DEVLET" select objesinde "New York" değerini seç
+* "CEP TELEFONU" elementine "5454445544" textini yaz
+* "kayıt_Ol" elementine tıkla
+
+# Kullanıcı Hesabının Oluşturulduğunun Kontrolü Yapılır
+* "HESABIM" elementinin değeri "test test" değerini içeriyor mu kontrol et
+* Sayfa üzerinde "MY ACCOUNT" objesi görüntülenene kadar bekle
+* "MY ACCOUNT" elementinin değeri "My account" değerini içeriyor mu kontrol et
+
+# Elbiseler Kategorisinden Yazlık Elbiselere Gidilir Seçilen Ürün Sepete Eklenir
+* "DRESSES" elementine odaklan
+* "SUMMER DRESSES" elementine tıkla
+* "SEPETE EKLE" elementi görüntülünene kadar kaydır
+* "URUN ADI" objesinin değerini "urun_Adi" değişkenine kaydet
+* "ELBİSE" elementine odaklan
+* "SEPETE EKLE" elementine tıkla
+* Sayfa üzerinde "CARPI ICONU" objesi görüntülenene kadar bekle
+* "CARPI ICONU" elementine tıkla
+
+# Arama Kısmına Summer Yazılır Ve Listelenen Ürünlerden Seçilen Sepete Eklenir
+* "SEARCH" elementine "Summer" textini yaz
+* "ARA BUTONU" elementine tıkla
+* "SEPETE EKLE 2" elementi görüntülünene kadar kaydır
+* "IKINCI URUN ADI" objesinin değerini "urun_Adi2" değişkenine kaydet
+* "SIFON ELBİSE" elementine odaklan
+* "SEPETE EKLE 2" elementine tıkla
+* Sayfa üzerinde "CARPI ICONU" objesi görüntülenene kadar bekle
+* "CARPI ICONU" elementine tıkla
+
+# Sepete Gidilir Ve Ürünlerin Eklendiği Kontrol Edilir
+* "SEPET" elementine odaklan
+* "ODEME" elementine odaklan
+* "ODEME" elementine tıkla
+* "SEPETTEKI URUN" objesinin değeri "urun_Adi" değişken değerini içeriyor mu kontrol et
+* "SEPETTEKI IKINCI URUN" objesinin değeri "urun_Adi2" değişken değerini içeriyor mu kontrol et
+* "URUN ADEDI" elementinin değeri "2 Products" değerini içeriyor mu kontrol et
+
+# Adres Seçimi Kontrol Edilir Ve Ödeme İşlemi İçin Devam Edilir
+* "ADRES ICIN DEVAM ET" elementi görüntülünene kadar kaydır
+* "ADRES ICIN DEVAM ET" elementine tıkla
+* "ADRES KONTROL" elementinin değeri "New York, New York 10010" değerini içeriyor mu kontrol et
+
+
+# Kargo Seçeneği Hizmet Şartları Kabul Edilir Ve Ödeme İşlemi İçin Devam Edilir
+* "ODEME ICIN DEVAM ET" elementi görüntülünene kadar kaydır
+* "ODEME ICIN DEVAM ET" elementine tıkla
+* "HIZMET SARTLARINI KABUL EDIYORUM" elementine tıkla
+* "ODEME ICIN DEVAM ET" elementi görüntülünene kadar kaydır
+* "ODEME ICIN DEVAM ET" elementine tıkla
+
+# Ödeme Yöntemi Seçilir Ve Sipariş Tamamlanır
+* "BANKA HAVALESI ILE ODEME" elementine tıkla
+* "SIPARISIMI ONAYLIYORUM" elementine tıkla
+* Sayfa üzerinde "SIPARISINIZ TAMAMLANDI" objesi görüntülenene kadar bekle
+* "SIPARISINIZ TAMAMLANDI" elementinin değeri "Your order on My Store is complete." değerini içeriyor mu kontrol et
+* "HESAP SAHIBININ ADI" objesinin değerini "hesap_Sahibi" değişkenine kaydet
+* "FIYAT" objesinin değerini "fiyat" değişkenine kaydet
+
+# Adres Ve Kargo Seçimleri Yapılarak Ödeme İşlemleri Gerçekleştirilir
+* Adres Seçimi Kontrol Edilir Ve Ödeme İşlemi İçin Devam Edilir
+* Kargo Seçeneği Hizmet Şartları Kabul Edilir Ve Ödeme İşlemi İçin Devam Edilir
+* Ödeme Yöntemi Seçilir Ve Sipariş Tamamlanır
+
+# Sipariş Tarihi Ve Detayları Ekranından Oluşturulan Sipariş Kontrol Edilir
+* "HESABIM" elementine tıkla
+* Sayfa üzerinde "SIPARIS TARIHI VE DETAYLARI" objesi görüntülenene kadar bekle
+* "SIPARIS TARIHI VE DETAYLARI" elementine tıkla
+* "SIPARIS GECMISI" elementinin değeri "Order history" değerini içeriyor mu kontrol et
+* "TOPLAM FIYAT" objesinin değeri "fiyat" değişken değerini içeriyor mu kontrol et
+* "SIPARIS REFERANSI" elementine tıkla
+* "SIPARIS DURUMU" elementi görüntülünene kadar kaydır
+* "SIPARIS DURUMU" elementinin değeri "On backorder" değerini içeriyor mu kontrol et
+* "TESLIMAT ADRESIM" elementinin değeri "New York," değerini içeriyor mu kontrol et

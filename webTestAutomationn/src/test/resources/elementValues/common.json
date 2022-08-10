@@ -1,0 +1,233 @@
+[
+  {
+    "key": "KAYIT OL",
+    "value": "//a[@class='login' ]",
+    "type": "xpath"
+  },
+  {
+    "key": "EMAIL ADRES",
+    "value":"email_create",
+    "type": "id"
+  },
+  {
+    "key": "HESAP OLUSTUR",
+    "value":"SubmitCreate",
+    "type": "id"
+  },
+  {
+    "key": "FIRST NAME",
+    "value":"customer_firstname",
+    "type": "id"
+  },
+  {
+    "key": "LAST NAME",
+    "value":"customer_lastname",
+    "type": "id"
+  },
+  {
+    "key": "PASSWORD",
+    "value":"passwd",
+    "type": "id"
+  },
+  {
+    "key": "SEHIR",
+    "value": "city",
+    "type": "id"
+  },
+  {
+    "key": "ADRES",
+    "value": "address1",
+    "type": "id"
+  },
+  {
+    "key": "POSTA KODU",
+    "value": "postcode",
+    "type": "id"
+  },
+  {
+    "key": "ülke",
+    "value": "id_country",
+    "type": "id"
+  },
+  {
+    "key": "CEP TELEFONU",
+    "value": "phone_mobile",
+    "type": "id"
+  },
+  {
+    "key": "DEVLET",
+    "value": "id_state",
+    "type": "id"
+  },
+  {
+    "key": "kayıt_Ol",
+    "value": "submitAccount",
+    "type": "id"
+  },
+  {
+    "key": "HESABIM",
+    "value": "//a[@class='account']/span[text()='test test']",
+    "type": "xpath"
+  },
+  {
+    "key": "MY ACCOUNT",
+    "value": "//span[text()='My account']",
+    "type": "xpath"
+  },
+  {
+    "key": "DRESSES",
+    "value": "(//a[@title='Dresses'])[2]",
+    "type": "xpath"
+  },
+  {
+    "key": "SUMMER DRESSES",
+    "value": "(//li/a[@title=\"Summer Dresses\"])[2]",
+    "type": "xpath"
+  },
+  {
+    "key": "SEPETE EKLE",
+    "value": "(//a[@title='Add to cart'])[2]",
+    "type": "xpath"
+  },
+  {
+    "key": "URUN ADI",
+    "value": "(//a[@class='product-name'])[3]",
+    "type": "xpath"
+  },
+  {
+    "key": "IKINCI URUN ADI",
+    "value": "(//a[@title='Printed Chiffon Dress'])[2]",
+    "type": "xpath"
+  },
+  {
+    "key": "ELBİSE",
+    "value": "(//a[@class='product_img_link'])[2]",
+    "type": "xpath"
+  },
+  {
+    "key": "SIFON ELBİSE",
+    "value": "(//a[@class='product_img_link'])[3]",
+    "type": "xpath"
+  },
+  {
+    "key": "SEARCH",
+    "value": "search_query_top",
+    "type": "id"
+  },
+  {
+    "key": "CARPI ICONU",
+    "value": "//span[@title='Close window']",
+    "type": "xpath"
+  },
+  {
+    "key": "ARA BUTONU",
+    "value": "//button[@name='submit_search']",
+    "type": "xpath"
+  },
+  {
+    "key": "SEPETTEKI URUN",
+    "value": "//td/p/a[text()='Printed Summer Dress']",
+    "type": "xpath"
+  },
+  {
+    "key": "SEPETTEKI IKINCI URUN",
+    "value": "//td/p/a[text()='Printed Chiffon Dress']",
+    "type": "xpath"
+  },
+  {
+    "key": "SEPET",
+    "value": "//a[@title='View my shopping cart']",
+    "type": "xpath"
+  },
+  {
+    "key": "URUN ADEDI",
+    "value": "summary_products_quantity",
+    "type": "id"
+  },
+  {
+    "key": "ADRES ICIN DEVAM ET",
+    "value": "//a[@title='Proceed to checkout']/span[text()='Proceed to checkout']",
+    "type": "xpath"
+  },
+  {
+    "key": "ADRES KONTROL",
+    "value": "(//li[contains(@class,'address_city address_state')])",
+    "type": "xpath"
+  },
+  {
+    "key": "HIZMET SARTLARINI KABUL EDIYORUM",
+    "value": "cgv",
+    "type": "id"
+  },
+  {
+    "key": "ODEME ICIN DEVAM ET",
+    "value": "(//button[@type='submit'])[2]",
+    "type": "xpath"
+  },
+  {
+    "key": "BANKA HAVALESI ILE ODEME",
+    "value": "//a[@class='bankwire']",
+    "type": "xpath"
+  },
+  {
+    "key": "SIPARISIMI ONAYLIYORUM",
+    "value": "//span[text()='I confirm my order']",
+    "type": "xpath"
+  },
+  {
+    "key": "SIPARISINIZ TAMAMLANDI",
+    "value": "//strong[text()='Your order on My Store is complete.']",
+    "type": "xpath"
+  },
+  {
+    "key": "ODEME",
+    "value": "button_order_cart",
+    "type": "id"
+  },
+  {
+    "key": "HESAP SAHIBININ ADI",
+    "value": "//div/strong[text()='Pradeep Macharla']",
+    "type": "xpath"
+  },
+  {
+    "key": "FIYAT",
+    "value": "//div/span[@class='price']/strong",
+    "type": "xpath"
+  },
+  {
+    "key": "SIPARIS TARIHI VE DETAYLARI",
+    "value": "a[title='Orders']",
+    "type": "css"
+  },
+  {
+    "key": "SIPARIS GECMISI",
+    "value": "span[class='navigation_page']",
+    "type": "css"
+  },
+  {
+    "key": "TOPLAM FIYAT",
+    "value": "//td[@class='history_price']/span",
+    "type": "xpath"
+  },
+  {
+    "key": "SEPETE EKLE 2",
+    "value": "(//a[@title='Add to cart'])[3]",
+    "type": "xpath"
+  },
+  {
+    "key": "SIPARIS DURUMU",
+    "value": "//span[text()='On backorder']",
+    "type": "xpath"
+  },
+  {
+    "key": "SIPARIS REFERANSI",
+    "value": "//a[@class='color-myaccount']",
+    "type": "xpath"
+  },
+  {
+    "key": "TESLIMAT ADRESIM",
+    "value": "(//span[@class='address_city'])[1]",
+    "type": "xpath"
+  }
+
+]

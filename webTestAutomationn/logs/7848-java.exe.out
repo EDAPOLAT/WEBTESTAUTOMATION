@@ -1,0 +1,31 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+{"logLevel":"debug","message":"gauge-java took 913milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 913"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 60939"}
+{"logLevel":"info","message":"Listening on port:60939"}
+2022-08-09 17:48:46 INFO  Reflections:169 info - Reflections took 3245 ms to scan 106 urls, producing 11785 keys and 66095 values 
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'step.StepImplementation.generateRandomMail' and 'step.StepImplementation.generateRandomMail'"}
+{"logLevel":"debug","message":"Found {} alanına rastgele mail adresi yaz in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\t{} alanına rastgele mail adresi yaz : public void generateRandomMail(String key)"}
+2022-08-09 17:48:49 INFO  Reflections:169 info - Reflections took 3057 ms to scan 106 urls, producing 11685 keys and 54884 values 
+Ağu 09, 2022 5:48:49 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Ağu 09, 2022 5:48:49 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Starting ChromeDriver 103.0.5060.134 (8ec6fce403b3feb0869b0732eda8bd95011d333c-refs/branch-heads/5060@{#1262}) on port 13808
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Ağu 09, 2022 5:48:52 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+{"logLevel":"debug","message":"Executing '{} alanına rastgele mail adresi yaz' using 'class step.StepImplementation.generateRandomMail"}
+2022-08-09 17:49:20 INFO  BaseSteps:22 sendKeys - Elemente yngun@gmail.com texti yazıldı.
+{"logLevel":"debug","message":"Killing Java runner..."}
+{"logLevel":"debug","message":"Stopping execution pool..."}
+{"logLevel":"debug","message":"Shutting down grpc server..."}
+{"logLevel":"debug","message":"Runner killed gracefully."}

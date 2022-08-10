@@ -1,0 +1,62 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+{"logLevel":"debug","message":"gauge-java took 1010milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 1010"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 64064"}
+{"logLevel":"info","message":"Listening on port:64064"}
+2022-08-09 18:54:23 INFO  Reflections:228 scan - Reflections took 3846 ms to scan 106 urls, producing 11784 keys and 66099 values 
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'step.StepImplementation.waitUntilVisible' and 'step.StepImplementation.waitUntilVisible'"}
+{"logLevel":"debug","message":"Found Sayfa üzerinde {} objesi görüntülenene kadar bekle in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step.StepImplementation.generateRandomMail' and 'step.StepImplementation.generateRandomMail'"}
+{"logLevel":"debug","message":"Found {} alanına rastgele mail adresi yaz in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step.StepImplementation.waitBySeconds' and 'step.StepImplementation.waitBySeconds'"}
+{"logLevel":"debug","message":"Found {} saniye bekle in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step.StepImplementation.ssendKeys' and 'step.StepImplementation.ssendKeys'"}
+{"logLevel":"debug","message":"Found {} elementine {} textini yaz in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step.StepImplementation.clickElement' and 'step.StepImplementation.clickElement'"}
+{"logLevel":"debug","message":"Found {} elementine tıkla in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step.StepImplementation.selectElementByText' and 'step.StepImplementation.selectElementByText'"}
+{"logLevel":"debug","message":"Found {} select objesinde {} değerini seç in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\tSayfa üzerinde {} objesi görüntülenene kadar bekle : public void waitUntilVisible(String key)"}
+{"logLevel":"debug","message":"\t{} saniye bekle : public void waitBySeconds(long seconds)"}
+{"logLevel":"debug","message":"\t{} elementine tıkla : public void clickElement(String key)"}
+{"logLevel":"debug","message":"\t{} elementine {} textini yaz : public void ssendKeys(String text, String key)"}
+{"logLevel":"debug","message":"\t{} select objesinde {} değerini seç : public void selectElementByText(String key, String text)"}
+{"logLevel":"debug","message":"\t{} alanına rastgele mail adresi yaz : public void generateRandomMail(String key)"}
+2022-08-09 18:54:29 INFO  Reflections:228 scan - Reflections took 5984 ms to scan 106 urls, producing 11685 keys and 54884 values 
+Ağu 09, 2022 6:54:29 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Ağu 09, 2022 6:54:29 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Starting ChromeDriver 103.0.5060.134 (8ec6fce403b3feb0869b0732eda8bd95011d333c-refs/branch-heads/5060@{#1262}) on port 22029
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Ağu 09, 2022 6:54:32 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+{"logLevel":"debug","message":"Executing 'Sayfa üzerinde {} objesi görüntülenene kadar bekle' using 'class step.StepImplementation.waitUntilVisible"}
+2022-08-09 18:54:45 INFO  BaseSteps:90 getBy - Sign_In elementi By.xpath: //a[@class='login' ] by değerine sahip
+2022-08-09 18:54:45 INFO  BaseSteps:37 waitUntilVisible - 'Sign_In' objesi sayfa üzerinde görüntülenene kadar beklendi.
+{"logLevel":"debug","message":"Executing '{} elementine tıkla' using 'class step.StepImplementation.clickElement"}
+2022-08-09 18:54:45 INFO  BaseSteps:90 getBy - Sign_In elementi By.xpath: //a[@class='login' ] by değerine sahip
+2022-08-09 18:54:50 INFO  BaseSteps:81 clickElement - Elemente tıklandı.
+{"logLevel":"debug","message":"Executing 'Sayfa üzerinde {} objesi görüntülenene kadar bekle' using 'class step.StepImplementation.waitUntilVisible"}
+2022-08-09 18:54:50 INFO  BaseSteps:90 getBy - email_Address elementi By.id: email_create by değerine sahip
+2022-08-09 18:54:50 INFO  BaseSteps:37 waitUntilVisible - 'email_Address' objesi sayfa üzerinde görüntülenene kadar beklendi.
+{"logLevel":"debug","message":"Executing '{} alanına rastgele mail adresi yaz' using 'class step.StepImplementation.generateRandomMail"}
+2022-08-09 18:54:50 INFO  BaseSteps:50 sendKeys - Elemente ilfksfrkn@gmail.com texti yazıldı.
+{"logLevel":"debug","message":"Executing '{} elementine tıkla' using 'class step.StepImplementation.clickElement"}
+2022-08-09 18:54:50 INFO  BaseSteps:90 getBy - create_An_Account elementi By.id: SubmitCreate by değerine sahip
+2022-08-09 18:54:51 INFO  BaseSteps:81 clickElement - Elemente tıklandı.
+{"logLevel":"debug","message":"Executing 'Sayfa üzerinde {} objesi görüntülenene kadar bekle' using 'class step.StepImplementation.waitUntilVisible"}
+2022-08-09 18:54:51 INFO  BaseSteps:90 getBy - first_Name elementi By.xpath: //input[@id='firstname'] by değerine sahip
+2022-08-09 18:54:55 INFO  BaseSteps:37 waitUntilVisible - 'first_Name' objesi sayfa üzerinde görüntülenene kadar beklendi.
+{"logLevel":"debug","message":"Executing '{} elementine {} textini yaz' using 'class step.StepImplementation.ssendKeys"}
+{"logLevel":"debug","message":"Killing Java runner..."}
+{"logLevel":"debug","message":"Stopping execution pool..."}
+{"logLevel":"debug","message":"Shutting down grpc server..."}
+{"logLevel":"debug","message":"Runner killed gracefully."}

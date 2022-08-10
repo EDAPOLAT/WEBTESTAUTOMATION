@@ -1,0 +1,64 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+{"logLevel":"debug","message":"gauge-java took 885milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 885"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 63566"}
+{"logLevel":"info","message":"Listening on port:63566"}
+2022-08-10 17:06:22 INFO  Reflections:169 info - Reflections took 3146 ms to scan 106 urls, producing 11784 keys and 66104 values 
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'step.StepImplementation.hover' and 'step.StepImplementation.hover'"}
+{"logLevel":"debug","message":"Found {} elementine odaklan in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step.StepImplementation.saveObjectValueToUserVariable' and 'step.StepImplementation.saveObjectValueToUserVariable'"}
+{"logLevel":"debug","message":"Found {} objesinin değerini {} değişkenine kaydet in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step.StepImplementation.waitUntilVisible' and 'step.StepImplementation.waitUntilVisible'"}
+{"logLevel":"debug","message":"Found Sayfa üzerinde {} objesi görüntülenene kadar bekle in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step.StepImplementation.generateRandomMail' and 'step.StepImplementation.generateRandomMail'"}
+{"logLevel":"debug","message":"Found {} alanına rastgele mail adresi yaz in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step.StepImplementation.waitBySeconds' and 'step.StepImplementation.waitBySeconds'"}
+{"logLevel":"debug","message":"Found {} saniye bekle in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step.StepImplementation.scrollElement' and 'step.StepImplementation.scrollElement'"}
+{"logLevel":"debug","message":"Found {} elementi görüntülünene kadar kaydır in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step.StepImplementation.ssendKeys' and 'step.StepImplementation.ssendKeys'"}
+{"logLevel":"debug","message":"Found {} elementine {} textini yaz in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step.StepImplementation.clickElement' and 'step.StepImplementation.clickElement'"}
+{"logLevel":"debug","message":"Found {} elementine tıkla in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step.StepImplementation.selectElementByText' and 'step.StepImplementation.selectElementByText'"}
+{"logLevel":"debug","message":"Found {} select objesinde {} değerini seç in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step.StepImplementation.implementation4' and 'step.StepImplementation.implementation4'"}
+{"logLevel":"debug","message":"Found {} elementinin değeri {} değerini içeriyor mu kontrol et in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step.StepImplementation.implementation5' and 'step.StepImplementation.implementation5'"}
+{"logLevel":"debug","message":"Found {} objesinin değeri {} değişken değerini içeriyor mu kontrol et in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\tSayfa üzerinde {} objesi görüntülenene kadar bekle : public void waitUntilVisible(String key)"}
+{"logLevel":"debug","message":"\t{} elementine odaklan : public void hover(String key)"}
+{"logLevel":"debug","message":"\t{} saniye bekle : public void waitBySeconds(long seconds)"}
+{"logLevel":"debug","message":"\t{} elementine tıkla : public void clickElement(String key)"}
+{"logLevel":"debug","message":"\t{} elementine {} textini yaz : public void ssendKeys(String key, String text)"}
+{"logLevel":"debug","message":"\t{} select objesinde {} değerini seç : public void selectElementByText(String key, String text)"}
+{"logLevel":"debug","message":"\t{} objesinin değerini {} değişkenine kaydet : public void saveObjectValueToUserVariable(String key, String variableName)"}
+{"logLevel":"debug","message":"\t{} alanına rastgele mail adresi yaz : public void generateRandomMail(String key)"}
+{"logLevel":"debug","message":"\t{} elementinin değeri {} değerini içeriyor mu kontrol et : public void implementation4(String key, String expectedValue)"}
+{"logLevel":"debug","message":"\t{} objesinin değeri {} değişken değerini içeriyor mu kontrol et : public void implementation5(String key, String savedUserVariable)"}
+{"logLevel":"debug","message":"\t{} elementi görüntülünene kadar kaydır : public void scrollElement(String key)"}
+2022-08-10 17:06:24 INFO  Reflections:169 info - Reflections took 1898 ms to scan 106 urls, producing 11685 keys and 54884 values 
+Ağu 10, 2022 5:06:24 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Ağu 10, 2022 5:06:24 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Starting ChromeDriver 103.0.5060.134 (8ec6fce403b3feb0869b0732eda8bd95011d333c-refs/branch-heads/5060@{#1262}) on port 4142
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1660140386.440][WARNING]: This version of ChromeDriver has not been tested with Chrome version 104.
+Ağu 10, 2022 5:06:26 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+{"logLevel":"debug","message":"Executing 'Sayfa üzerinde {} objesi görüntülenene kadar bekle' using 'class step.StepImplementation.waitUntilVisible"}
+2022-08-10 17:06:51 INFO  BaseSteps:93 getBy - KAYIT OL elementi By.xpath: //a[@class='login' ] by değerine sahip
+2022-08-10 17:06:51 INFO  BaseSteps:41 waitUntilVisible - 'KAYIT OL' objesi sayfa üzerinde görüntülenene kadar beklendi.
+{"logLevel":"debug","message":"Executing '{} elementine tıkla' using 'class step.StepImplementation.clickElement"}
+2022-08-10 17:06:51 INFO  BaseSteps:93 getBy - KAYIT OL elementi By.xpath: //a[@class='login' ] by değerine sahip
+2022-08-10 17:06:59 INFO  BaseSteps:84 clickElement - Elemente tıklandı.
+{"logLevel":"debug","message":"Executing 'Sayfa üzerinde {} objesi görüntülenene kadar bekle' using 'class step.StepImplementation.waitUntilVisible"}
+2022-08-10 17:06:59 INFO  BaseSteps:93 getBy - EMAIL ADRES elementi By.id: email_create by değerine sahip
